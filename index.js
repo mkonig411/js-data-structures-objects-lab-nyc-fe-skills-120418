@@ -9,7 +9,6 @@ function updateDriverWithKeyAndValue(driver, key, value) {
 }
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) }
- const driverCopy = {...driver}
-  driverCopy[key] = value
-  return driverCopy
+  driver[key] = value
+  return driver
 }
