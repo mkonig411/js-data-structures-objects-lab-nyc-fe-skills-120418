@@ -3,6 +3,6 @@ const driver = {}
 
 function updateDriverWithKeyAndValue(key, value) {
   const driverCopy = {…driver}
-  object[key] = value
-}
+  driverCopy[key] = value
+  return driverCopy
 }
