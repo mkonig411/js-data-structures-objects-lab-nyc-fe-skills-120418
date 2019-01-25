@@ -18,3 +18,9 @@ function deleteFromDriverByKey(driver, key) {
   delete driverCopy[key]
   return driverCopy
 }
+
+function deleteFromDriverByKey(driver, key) {
+  const driverCopy = {...driver}
+  delete driverCopy[key]
+  return driverCopy
+}
